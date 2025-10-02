@@ -8,18 +8,17 @@ public class Dice {
     }
 
     public int getDice1() {
-        return dice1.roll();
+        return dice1;
     }
 
     public void setDice1(int dice1) {
         this.dice1 = dice1;
     }
 
-    public static int roll(int diceRoll){
+    public static int roll(){
         int maxValue = 6;
         int minValue = 1;
         int randomNumber = (int)(Math.random() * maxValue) + minValue;
-        System.out.println(randomNumber);
-        return diceRoll;
+        return randomNumber;
     } // end of roll
 }
