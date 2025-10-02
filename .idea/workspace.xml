@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d22e44b6-f050-47ee-b1c4-fe3ca717e8a2" name="Changes" comment="* first commit, established main()">
+    <list default="true" id="d22e44b6-f050-47ee-b1c4-fe3ca717e8a2" name="Changes" comment="* renamed dice1 &amp; dice2 to roll1 &amp; roll2&#10;* renamed diceCount to rollSum&#10;* cannot figure out why I cannot get the roll variables to work with the constructor and roll()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +48,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Dice.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Student/pluralsight/workbook-2/RollTheDice/src/main/java/com/pluralsight/Main.java"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,11 +73,48 @@
       <option name="project" value="LOCAL" />
       <updated>1759413716532</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="* created roll() to give the dice a random output between 1-6&#10;* created dice variables&#10;* created a for loop to loop program for 100 dice rolls&#10;* created counters for how many times 2,4,6,7 were rolled">
+      <option name="closed" value="true" />
+      <created>1759415165186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759415165186</updated>
+    </task>
+    <task id="LOCAL-00003" summary="* created Main class so Dice can be the constructor class">
+      <option name="closed" value="true" />
+      <created>1759415854724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759415854724</updated>
+    </task>
+    <task id="LOCAL-00004" summary="* created constructor called Dice that will be used to return two random dice values">
+      <option name="closed" value="true" />
+      <created>1759415885860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759415885860</updated>
+    </task>
+    <task id="LOCAL-00005" summary="* created setters to set values of dice1 and dice2 / not sure if they work">
+      <option name="closed" value="true" />
+      <created>1759416242897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759416242897</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* first commit, established main()" />
-    <option name="LAST_COMMIT_MESSAGE" value="* first commit, established main()" />
+    <MESSAGE value="* created roll() to give the dice a random output between 1-6&#10;* created dice variables&#10;* created a for loop to loop program for 100 dice rolls&#10;* created counters for how many times 2,4,6,7 were rolled" />
+    <MESSAGE value="* created Main class so Dice can be the constructor class" />
+    <MESSAGE value="* created constructor called Dice that will be used to return two random dice values" />
+    <MESSAGE value="* created setters to set values of dice1 and dice2 / not sure if they work" />
+    <MESSAGE value="* renamed dice1 &amp; dice2 to roll1 &amp; roll2&#10;* renamed diceCount to rollSum&#10;* cannot figure out why I cannot get the roll variables to work with the constructor and roll()" />
+    <option name="LAST_COMMIT_MESSAGE" value="* renamed dice1 &amp; dice2 to roll1 &amp; roll2&#10;* renamed diceCount to rollSum&#10;* cannot figure out why I cannot get the roll variables to work with the constructor and roll()" />
   </component>
 </project>
