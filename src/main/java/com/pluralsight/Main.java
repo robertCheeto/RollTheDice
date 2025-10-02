@@ -7,11 +7,11 @@ public class Main {
         Dice roll2 = new Dice();
         int twoCounter = 0, fourCounter = 0, sixCounter = 0, sevenCounter = 0;
 
-        for (int i = 1; i < 101; i++){
+        for (int i = 0; i < 100; i++){
             int dice1 = roll1.roll();
             int dice2 = roll2.roll();
             int rollSum = dice1 + dice2;
-            System.out.printf("Roll %d: %d and %d | Roll Sum: %d\n", i, dice1, dice2, rollSum);
+            System.out.printf("Roll %d: %d and %d | Roll Sum: %d\n", i + 1, dice1, dice2, rollSum);
             switch(rollSum) {
                 case 2:
                     twoCounter += 1;
