@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d22e44b6-f050-47ee-b1c4-fe3ca717e8a2" name="Changes" comment="* renamed dice1 &amp; dice2 to roll1 &amp; roll2&#10;* renamed diceCount to rollSum&#10;* cannot figure out why I cannot get the roll variables to work with the constructor and roll()">
+    <list default="true" id="d22e44b6-f050-47ee-b1c4-fe3ca717e8a2" name="Changes" comment="* changed the roll() to not return primitive int type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Dice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759416242897</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="* still cannot figure out why i'm getting primitive int type">
+      <option name="closed" value="true" />
+      <created>1759416906021</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759416906021</updated>
+    </task>
+    <task id="LOCAL-00007" summary="* changed the roll() to not return primitive int type">
+      <option name="closed" value="true" />
+      <created>1759417059017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759417059017</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +130,8 @@
     <MESSAGE value="* created constructor called Dice that will be used to return two random dice values" />
     <MESSAGE value="* created setters to set values of dice1 and dice2 / not sure if they work" />
     <MESSAGE value="* renamed dice1 &amp; dice2 to roll1 &amp; roll2&#10;* renamed diceCount to rollSum&#10;* cannot figure out why I cannot get the roll variables to work with the constructor and roll()" />
-    <option name="LAST_COMMIT_MESSAGE" value="* renamed dice1 &amp; dice2 to roll1 &amp; roll2&#10;* renamed diceCount to rollSum&#10;* cannot figure out why I cannot get the roll variables to work with the constructor and roll()" />
+    <MESSAGE value="* still cannot figure out why i'm getting primitive int type" />
+    <MESSAGE value="* changed the roll() to not return primitive int type" />
+    <option name="LAST_COMMIT_MESSAGE" value="* changed the roll() to not return primitive int type" />
   </component>
 </project>
