@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d22e44b6-f050-47ee-b1c4-fe3ca717e8a2" name="Changes" comment="* removed getter/setter because they are not needed&#10;* removed static argument from roll()" />
+    <list default="true" id="d22e44b6-f050-47ee-b1c4-fe3ca717e8a2" name="Changes" comment="* edited for loop to set i = 0 and properly display the roll count in the souf">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759418934076</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="* edited for loop to set i = 0 and properly display the roll count in the souf">
+      <option name="closed" value="true" />
+      <created>1759419012160</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759419012160</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,6 +166,7 @@
     <MESSAGE value="* editing for loop to display correct values&#10;* start working on counter for dice rolls - complete&#10;* TO-DO: counter is only counting half the rolls it should make, fix this issue" />
     <MESSAGE value="* fixed looping issue by removing rouge i += 1;&#10;* removed working comments" />
     <MESSAGE value="* removed getter/setter because they are not needed&#10;* removed static argument from roll()" />
-    <option name="LAST_COMMIT_MESSAGE" value="* removed getter/setter because they are not needed&#10;* removed static argument from roll()" />
+    <MESSAGE value="* edited for loop to set i = 0 and properly display the roll count in the souf" />
+    <option name="LAST_COMMIT_MESSAGE" value="* edited for loop to set i = 0 and properly display the roll count in the souf" />
   </component>
 </project>
